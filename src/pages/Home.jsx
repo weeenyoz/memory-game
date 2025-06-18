@@ -6,7 +6,7 @@ const Home = () => {
         <>
             <h1>Home page</h1>
             <NavLink to="/memorygame">Play Memory Game</NavLink><br/>
-            <NavLink to="/card">Go to Sammple Card</NavLink>
+            {/* <NavLink to="/card">Go to Sammple Card</NavLink> */}
         </>
     )
 }
