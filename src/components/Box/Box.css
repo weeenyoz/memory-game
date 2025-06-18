@@ -1,0 +1,20 @@
+div.Box {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    margin: 5px;
+    cursor: pointer;
+    color: #646cff;
+    background-color: #646cff30;
+    border-radius: 5px;
+    border-color: #646cff;
+}
+
+div.Box.Selected {
+    background-color: white;
+}
+
+div.Box.Selected.Disappear {
+    opacity: 0;
+}
